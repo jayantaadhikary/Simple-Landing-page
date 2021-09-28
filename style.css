@@ -1,0 +1,40 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://images.unsplash.com/photo-1528119604199-b4a92180f478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+h2{
+  color: #e2dbdb;
+  font-size: 2rem;
+  font-style: italic;
+}
+.buffer{
+  height: 10rem;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform:uppercase;
+}
+.btn-xl{
+  padding: 1rem 2rem;
+}
+.btn-primary{
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+.btn-primary:hover{
+  background-color: grey;
+  border-color: grey;
+  border-width: 3px;
+}
